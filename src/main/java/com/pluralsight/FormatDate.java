@@ -19,7 +19,7 @@ public class FormatDate {
         System.out.println(date2);
 
         LocalDateTime currentDateTime = LocalDateTime.now();
-        DateTimeFormatter formatter3 = DateTimeFormatter.ofPattern("h:mm dd-MMM-yyyy ");
+        DateTimeFormatter formatter3 = DateTimeFormatter.ofPattern("h:mm 'on' dd-MMM-yyyy ");
         String date3 = currentDateTime.format(formatter3);
         System.out.println(date3);
     }
